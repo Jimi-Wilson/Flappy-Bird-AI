@@ -1,15 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3156a697-ab82-4f3f-b428-a67a6cf5655e" name="Changes" comment="" />
+    <list default="true" id="3156a697-ab82-4f3f-b428-a67a6cf5655e" name="Changes" comment="Project setup">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/base.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/base.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/bird1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bird1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/bird2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bird2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/bird3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/bird3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/pipe.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/pipe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Jimi-Wilson"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Jimi-Wilson/Flappy-Bird-AI",
+    "accountId": "1e18ec67-868b-4466-8d98-9abb158a54ea"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
 }]]></component>
@@ -21,8 +52,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -43,11 +81,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739195394426</updated>
-      <workItem from="1739195395523" duration="1000" />
+      <workItem from="1739195395523" duration="686000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1739195462571</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739195462571</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Project setup">
+      <option name="closed" value="true" />
+      <created>1739195773830</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739195773830</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="Project setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project setup" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/flappy_bird_ai$main.coverage" NAME="main Coverage Results" MODIFIED="1739196013685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
