@@ -1,17 +1,21 @@
 import pygame
-from Base import Base
+from pygame.examples.grid import WINDOW_HEIGHT
 
+from Base import Base
+from Bird import Bird
 
 class Game:
     WINDOW_WIDTH = 600
     WINDOW_HEIGHT = 800
-    BG_IMG = pygame.image.load("assets/bg.png") # todo: need to scale bg image.
+    BG_IMG = pygame.transform.scale(pygame.image.load("assets/bg.png"), (WINDOW_WIDTH, WINDOW_HEIGHT))
 
     def __init__(self):
         pygame.init()
         self.running = True
         self.screen = pygame.display.set_mode((self.WINDOW_WIDTH, self.WINDOW_HEIGHT))
         self.clock = pygame.time.Clock()
+
+        self.bird = Bird(WINDOW_HEIGHT/2)
 
         self.base = Base(700)
 
@@ -25,6 +29,7 @@ class Game:
     def draw(self):
         self.draw_background()
         self.base.draw(self.screen)
+        self.bird.draw(self.screen)
 
 
     def run(self):
@@ -37,7 +42,11 @@ class Game:
                 if event.type == pygame.QUIT:
                     self.running = False
 
+                if event.type == pygame.KEYDOWN:
+                    if event.key == pygame.K_SPACE:
+                        self.bird.up()
 
+            self.bird.move()
             self.base.move_base()
             self.draw()
 
